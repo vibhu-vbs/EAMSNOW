@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4646396683776650a617c765eeaad388" extends="x_1796193_identi_0_access_object" label="Entitlements" max_length="40" name="x_1796193_identi_0_entitlements" type="collection"/>
+</database>

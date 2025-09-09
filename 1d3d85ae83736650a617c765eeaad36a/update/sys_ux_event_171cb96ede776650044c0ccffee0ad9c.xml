@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NOW_UXF_PAGE#ADD_NOTIFICATIONS_RELAY_931cb96ea7776650bbda0eeaf73b3d9b</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Page Add Notifications Relay (Preferences Default)</label>
+        <props>[{"name":"items","fieldType":"json","interfaceApiName":null,"label":"Items"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 10:12:33</sys_created_on>
+        <sys_id>171cb96ede776650044c0ccffee0ad9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Page Add Notifications Relay (Preferences Default)</sys_name>
+        <sys_package display_value="Identity and Access Management" source="x_1796193_identi_0">1d3d85ae83736650a617c765eeaad36a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Identity and Access Management">1d3d85ae83736650a617c765eeaad36a</sys_scope>
+        <sys_update_name>sys_ux_event_171cb96ede776650044c0ccffee0ad9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 10:12:33</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=171cb96ede776650044c0ccffee0ad9c"/>
+</record_update>

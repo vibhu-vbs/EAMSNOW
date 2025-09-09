@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="NextExperience">c8ae7e45732130107d804c9885f6a7a5</analytics_channel>
+        <application_name>Identity and Access Management</application_name>
+        <bucket_document_id>d71cb96eda776650c8e17f898ada8583</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sys_ux_page_registry</bucket_table_name>
+        <bucket_type/>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_1796193_identi_0.sys_ux_page_registry.d71cb96eda776650c8e17f898ada8583</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 10:22:19</sys_created_on>
+        <sys_id>fa5eb5a683776650a617c765eeaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Identity and Access Management</sys_name>
+        <sys_package display_value="Identity and Access Management" source="x_1796193_identi_0">1d3d85ae83736650a617c765eeaad36a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Identity and Access Management">1d3d85ae83736650a617c765eeaad36a</sys_scope>
+        <sys_update_name>sys_analytics_bucket_fa5eb5a683776650a617c765eeaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 10:22:19</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

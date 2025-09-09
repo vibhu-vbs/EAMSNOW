@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SAVE_RELAY_2f1cb96eac776650a3d34b861925fcb2</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Glide Form 1 SAVE Relay (Tasks Default)</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 10:12:37</sys_created_on>
+        <sys_id>5b1cb96ed57766500eb560366b7a799d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide Form 1 SAVE Relay (Tasks Default)</sys_name>
+        <sys_package display_value="Identity and Access Management" source="x_1796193_identi_0">1d3d85ae83736650a617c765eeaad36a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Identity and Access Management">1d3d85ae83736650a617c765eeaad36a</sys_scope>
+        <sys_update_name>sys_ux_event_5b1cb96ed57766500eb560366b7a799d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 10:12:37</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b1cb96ed57766500eb560366b7a799d"/>
+</record_update>

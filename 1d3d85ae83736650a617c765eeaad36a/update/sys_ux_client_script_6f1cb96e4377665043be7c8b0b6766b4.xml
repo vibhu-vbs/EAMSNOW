@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Landing Page">af1cb96e0d7766505d0daaa1c50433bf</macroponent>
+        <name>On search </name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    const {
+        searchContextConfigId,
+        searchTerm
+    } = event.payload;
+    
+    api.emit('NAV_ITEM_SELECTED', {
+        route: "search",
+        fields: {
+            searchContextConfigId
+        },
+        params: {
+            searchTerm
+        }
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 10:12:34</sys_created_on>
+        <sys_id>6f1cb96e4377665043be7c8b0b6766b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On search</sys_name>
+        <sys_package display_value="Identity and Access Management" source="x_1796193_identi_0">1d3d85ae83736650a617c765eeaad36a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Identity and Access Management">1d3d85ae83736650a617c765eeaad36a</sys_scope>
+        <sys_update_name>sys_ux_client_script_6f1cb96e4377665043be7c8b0b6766b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 10:12:34</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

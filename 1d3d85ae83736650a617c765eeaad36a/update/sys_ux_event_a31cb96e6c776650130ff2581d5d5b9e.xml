@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_671cb96e8d7766507c7ab9d1599995bf</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 10:12:35</sys_created_on>
+        <sys_id>a31cb96e6c776650130ff2581d5d5b9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="Identity and Access Management" source="x_1796193_identi_0">1d3d85ae83736650a617c765eeaad36a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Identity and Access Management">1d3d85ae83736650a617c765eeaad36a</sys_scope>
+        <sys_update_name>sys_ux_event_a31cb96e6c776650130ff2581d5d5b9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 10:12:35</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=a31cb96e6c776650130ff2581d5d5b9e"/>
+</record_update>
