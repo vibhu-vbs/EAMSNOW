@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e306212283376650a617c765eeaad3eb" extends="cmdb_ci" label="Access Object" max_length="40" name="x_1796193_identi_0_access_object" type="collection"/>
+    <element db_object_id="e306212283376650a617c765eeaad3eb" extends="cmdb_ci" label="Access Object" max_length="40" name="x_1796193_identi_0_access_object" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="deleted" sequence="2" value="deleted"/>
+                <element inactive_on_update="false" label="Unmanaged" sequence="0" value="unmanaged"/>
+                <element inactive_on_update="false" label="Managed" sequence="1" value="managed"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="access_object_name" type="string"/>
+        <element choice="1" label="Access object type" max_length="40" name="access_object_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Roles" sequence="1" value="roles"/>
+                <element inactive_on_update="false" label="Entitlement" sequence="0" value="entitlement"/>
+            </choice>
+        </element>
+        <element choice="1" label="Category" max_length="40" name="categor0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application entitlement" sequence="0" value="application_entitlement"/>
+                <element inactive_on_update="false" label="platform entitlement" sequence="1" value="platform_entitlement"/>
+            </choice>
+        </element>
+        <element choice="1" label="Access product type" max_length="40" name="access_product_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application entitlement" sequence="0" value="application_entitlement"/>
+                <element inactive_on_update="false" label="Platform entitlement" sequence="1" value="platform_entitlement"/>
+                <element inactive_on_update="false" label="Sharepoint user" sequence="2" value="sharepoint_user"/>
+            </choice>
+        </element>
+    </element>
 </database>
